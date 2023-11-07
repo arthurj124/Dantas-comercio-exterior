@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(190, 205, 205);
+    margin: 0%;
+}
+header{
+    height: 50px;
+    background-color: rgb(140, 181, 167);
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+}
+button{
+    width: auto;
+    display: flex;
+    align-self: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
