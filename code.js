@@ -1,8 +1,18 @@
-let dolar = 5;
+ // URL da API
+
+
+
+
+let dolar = 0;
+fetch ('http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL').then((res) => res.json()).then((data)=> dolar = data['USDBRL']['high'] )
 
 
 
 function calcular(){
+    alert(dolar);
+    
+
+    let print = document.getElementById("resultado")
     let fob = document.getElementById("fob")
     let frete = document.getElementById("frete")
     let seguro = document.getElementById("seguro")
@@ -27,5 +37,7 @@ function calcular(){
     var Icmsconta = (total1+iiconta+IPIconta+pisconta+Confinsconta)/0.82*Icmsnum
     let total2 = iiconta+IPIconta+pisconta+Confinsconta+Icmsconta
     //var resultado = fob+frete+seguro+ii+IPI+Pis+Confins+Icms;
-    alert(Number(total2))
+    print.innerHTML = `R$ ${(total2.toFixed(2))}`
+    
+    
 }

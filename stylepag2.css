@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@500&display=swap');
+*{
+    font-family: 'kanit', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: ffffff;
+    margin: 0%;
+}
+.navbar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(20, 39, 53);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    position: absolute;
+    right: 0;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+.navbar image{
+    display: flex;
+    padding: 14px 16px; 
+
+}
+
+.navbar div{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+  
+.horizontal{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+}
+
+.vertical{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+#imagemlogo{
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+#logo{
+    left: 0;
+    position: absolute;
+    justify-self:center;
+    align-items: center;
+    display: flex;
+    align-self:center;
+
+}
+.main1{
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    padding: auto;
+    flex-direction: column;
+    background-color: rgb(76, 107, 129);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.organization{
+
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.bottombox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 3px;
+    outline: 2px solid #ffffff;
+    border: 0;
+    background-color: #e2e2e2;
+    outline-offset: 2px;
+    padding: 10px;
+    
+}
+
+button{
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 3px;
+    outline: 2px solid #ffffff;
+    border: 0;
+    background-color: #e2e2e2;
+    outline-offset: 2px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+#resultado{
+    margin-right: auto;
+    border-radius: 4px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    background-color: #ddd;
+    width: 120px;
+    height: 45px;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(226, 242, 255);
+    bottom: 0;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+/* aqui começa para ipad*/
+@media screen and (max-width: 768px){
+    #imagemlogo{
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    }
+    #titulo{
+        padding-left: 10%;
+        margin: auto;
+        font-size: 3vw;
+    }
+    h2{
+        font-size: medium;
+    }
+    .main1{
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-direction: column;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 100%;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0%;
+        flex-direction: column;
+        background-color: rgb(76, 107, 129);
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    
+    }
+    .organization{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    
+    }
+    .bottombox{
+        padding-top: 10px;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    #divresultado{
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 1px;
+    }
+    input{
+        margin: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 3px;
+        outline: 2px solid #ffffff;
+        border: 0;
+        background-color: #e2e2e2;
+        outline-offset: 2px;
+        padding:auto;
+        
+    }
+    
+    button{
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 3px;
+        outline: 2px solid #ffffff;
+        border: 0;
+        background-color: #e2e2e2;
+        outline-offset: 2px;
+        padding: 10px;
+        margin: auto;
+    
+    }
+    
+    #resultado{
+        margin-right: auto;
+        border-radius: 4px;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        background-color: #ddd;
+        width: 120px;
+        height: 45px;
+    }
+    footer{
+        height: 15%;
+        width: 100%;
+        background-color: rgb(226, 242, 255);
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+}
+/*aqui para celular*/
+@media screen and (max-width: 480px){
+    .navbar a {
+    position: absolute;
+    right: 0;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+     #imagemlogo{
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    }
+    #titulo{
+        padding-left: 10%;
+        margin: auto;
+        font-size: 10px;
+    }
+    .main1{
+        width: 100vw;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-direction: column;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 100%;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0%;
+        flex-direction: column;
+        background-color: rgb(76, 107, 129);
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    
+    }
+    h2{
+        font-size: medium;
+    }
+
+
+    footer{
+        height: 7%;
+    }
+    h6{
+        font-size: 2.4vw;
+    }
+}
+/*aqui laptop*/
+@media screen and (max-width: 1024px){
+    .main1{
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 00%;
+    margin-right: 00%;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    padding: auto;
+    flex-direction: column;
+    background-color: rgb(76, 107, 129);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.organization{
+
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.bottombox{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 3px;
+    outline: 2px solid #ffffff;
+    border: 0;
+    background-color: #e2e2e2;
+    outline-offset: 2px;
+    padding: 10px;
+    
+}
+
+button{
+    display: flex;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 3px;
+    outline: 2px solid #ffffff;
+    border: 0;
+    background-color: #e2e2e2;
+    outline-offset: 2px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+}
+/*aqui para desktop e telas grandes*/
+@media screen and (max-width: 1200px) and (min-width:1024px){
+    .main1{
+        height: 70%;
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
