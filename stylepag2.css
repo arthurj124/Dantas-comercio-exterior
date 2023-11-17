@@ -5,9 +5,10 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: ffffff;
     margin: 0%;
+    overflow: hidden; 
 }
 .navbar {
     justify-content: center;
@@ -84,26 +85,27 @@ body{
 
 }
 .main1{
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
     flex-direction: column;
-    display: flex;
+    display: block;
     align-self: center;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 }
 .box{
-    height: 100%;
+    position: center;
+    height: 100vh;
     border-radius: 5px;
     width: 100%;
-    padding: auto;
     flex-direction: column;
     background-color: rgb(76, 107, 129);
     display: flex;
     justify-content: center ;
     align-items: center;
+    position: center;
 
 }
 .organization{
@@ -120,10 +122,11 @@ body{
     display: flex;
     flex-direction: row;
 }
+
 input{
-    margin-left: 3px;
-    margin-right: 3px;
-    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
     outline: 2px solid #ffffff;
     border: 0;
     background-color: #e2e2e2;
@@ -142,6 +145,7 @@ button{
     outline-offset: 2px;
     padding: 10px;
     margin: auto;
+    color:rgb(69, 69, 69)
 
 }
 
@@ -157,16 +161,21 @@ button{
     height: 45px;
 }
 footer{
-    height: auto;
+    height: 5%;
     width: 100%;
     background-color: rgb(226, 242, 255);
     bottom: 0;
-    position: absolute;
+    position: fixed;
     align-self: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 75%;
     
+}
+
+#divresultado h3{
+    margin-left: 7px;
 }
 
 
@@ -313,9 +322,9 @@ footer{
         font-size: 10px;
     }
     .main1{
-        width: 100vw;
+        width: 480px;
         height: 100%;
-        margin-top: 0%;
+        margin-top: -0%;
         margin-left: 0%;
         margin-right: 0%;
         flex-direction: column;
@@ -323,6 +332,7 @@ footer{
         align-self: center;
         align-items: center;
         justify-content: center;
+        padding: 0%;
     }
     .box{
         height: 100%;
@@ -353,8 +363,8 @@ footer{
     .main1{
     height: 100%;
     margin-top: 0%;
-    margin-left: 00%;
-    margin-right: 00%;
+    margin-left: 0%;
+    margin-right: 0%;
     flex-direction: column;
     display: flex;
     align-self: center;
@@ -418,8 +428,8 @@ button{
 /*aqui para desktop e telas grandes*/
 @media screen and (max-width: 1200px) and (min-width:1024px){
     .main1{
+        
         height: 70%;
-        margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
         flex-direction: column;
