@@ -9,11 +9,8 @@ body{
     height: 100vh;
     background-color: ffffff;
     margin: 0%;
-<<<<<<< Updated upstream
-=======
     overflow: hidden;
     background-color: rgb(76, 107, 129);
->>>>>>> Stashed changes
 }
 .navbar {
     justify-content: center;
@@ -90,14 +87,7 @@ body{
 
 }
 .main1{
-<<<<<<< Updated upstream
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-=======
     height: 700px;
->>>>>>> Stashed changes
     flex-direction: column;
     display: flex;
     align-self: center;
@@ -105,13 +95,8 @@ body{
     justify-content: center;
 }
 .box{
-<<<<<<< Updated upstream
-    height: 100%;
-    border-radius: 5px;
-=======
     position: center;
     height: 100vh;
->>>>>>> Stashed changes
     width: 100%;
     padding: auto;
     flex-direction: column;
@@ -160,22 +145,6 @@ button{
 
 }
 
-#resultado{
-    color: rgb(123, 123, 123);
-    margin-top: 10%;
-    margin-right: 17px;
-    border-radius: 4px;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    display: flex;
-    background-color: #ddd;
-    width: fit-content;
-    height: 45px;
-    padding: 0% 10%;
-    
-}
-
 footer{
     height: auto;
     width: 100%;
@@ -186,22 +155,14 @@ footer{
     align-items: center;
     justify-content: center;
     display: flex;
-<<<<<<< Updated upstream
-=======
     font-size: 75%;
     color: rgb(195, 221, 255);
->>>>>>> Stashed changes
     
 }
 
 
-<<<<<<< Updated upstream
-/* aqui começa para ipad*/
-@media screen and (max-width: 768px){
-=======
 /* ipad*/
 @media screen and (max-width: 850px){
->>>>>>> Stashed changes
     #imagemlogo{
     
     display: flex;
@@ -301,18 +262,10 @@ footer{
 /*celular*/
 @media screen and (max-width: 480px){
     .main1{
-<<<<<<< Updated upstream
-        width: 100vw;
-        height: 100%;
-        margin-top: 0%;
-        margin-left: 0%;
-        margin-right: 0%;
-=======
         
         margin-top: -5%;
         width: 490px;
         height: 100vh;
->>>>>>> Stashed changes
         flex-direction: column;
         display: flex;
         align-self: center;
@@ -339,88 +292,3 @@ footer{
         font-size: 2.4vw;
     }
 }
-<<<<<<< Updated upstream
-/*aqui laptop*/
-@media screen and (max-width: 1024px){
-    .main1{
-    height: 100%;
-    margin-top: 0%;
-    margin-left: 00%;
-    margin-right: 00%;
-    flex-direction: column;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-}
-.box{
-    height: 100%;
-    border-radius: 5px;
-    width: 100%;
-    padding: auto;
-    flex-direction: column;
-    background-color: rgb(76, 107, 129);
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-
-}
-.organization{
-
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-
-}
-.bottombox{
-    padding-top: 2%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-input{
-    margin-left: 3px;
-    margin-right: 3px;
-    border-radius: 3px;
-    outline: 2px solid #ffffff;
-    border: 0;
-    background-color: #e2e2e2;
-    outline-offset: 2px;
-    padding: 10px;
-    
-}
-
-button{
-    display: flex;
-    margin-left: 3px;
-    margin-right: 3px;
-    border-radius: 3px;
-    outline: 2px solid #ffffff;
-    border: 0;
-    background-color: #e2e2e2;
-    outline-offset: 2px;
-    padding: 10px;
-    margin: auto;
-
-}
-
-}
-/*aqui para desktop e telas grandes*/
-@media screen and (max-width: 1200px) and (min-width:1024px){
-    .main1{
-        height: 70%;
-        margin-top: 7%;
-        margin-left: 5%;
-        margin-right: 5%;
-        flex-direction: column;
-        display: flex;
-        align-self: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-=======
->>>>>>> Stashed changes
