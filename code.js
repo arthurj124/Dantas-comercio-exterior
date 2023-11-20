@@ -11,12 +11,15 @@ getApiGitHub();
 
 
 function calcular(){
+<<<<<<< Updated upstream
     getApiGitHub()
 
     alert(dolar);
+=======
+>>>>>>> Stashed changes
     
 
-    let print = document.getElementById("resultado")
+    let print = document.getElementById("calcular")
     let fob = document.getElementById("fob")
     let frete = document.getElementById("frete")
     let seguro = document.getElementById("seguro")
