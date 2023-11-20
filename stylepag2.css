@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@500&display=swap');
 *{
     font-family: 'kanit', sans-serif;
-    overflow: hidden;
 }
 /* */
 
 body{
+    overflow: hidden;
     position: fixed; 
     top: 0; 
     left: 0;
