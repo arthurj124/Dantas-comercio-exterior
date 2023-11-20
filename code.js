@@ -9,10 +9,9 @@ fetch ('http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL').th
 
 
 function calcular(){
-    alert(dolar);
     
 
-    let print = document.getElementById("resultado")
+    let print = document.getElementById("calcular")
     let fob = document.getElementById("fob")
     let frete = document.getElementById("frete")
     let seguro = document.getElementById("seguro")
