@@ -1,15 +1,18 @@
  // URL da API
+function getApiGitHub(){
+    fetch ('https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL').then((api) => api.json()).then((api)=> dolar = api['USDBRL']['high'] );
 
+}
 
 
 
 let dolar = 0;
-fetch ('http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL').then((res) => res.json()).then((data)=> dolar = data['USDBRL']['high'] )
-
+getApiGitHub();
 
 
 function calcular(){
-    
+    getApiGitHub();
+
 
     let print = document.getElementById("calcular")
     let fob = document.getElementById("fob")
