@@ -161,7 +161,7 @@ footer{
     width: 100%;
     background-color: rgb(226, 242, 255);
     bottom: 0;
-    position: absolute;
+    position: fixed;
     align-self: center;
     align-items: center;
     justify-content: center;
