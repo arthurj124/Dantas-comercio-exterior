@@ -11,7 +11,7 @@ getApiGitHub();
 
 
 function calcular(){
-    getApiGitHub()
+    getApiGitHub();
 
 
     let print = document.getElementById("calcular")
