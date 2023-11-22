@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color:aqua;
+    margin:0%;
+  }
+  
+ 
+  .navbar {
+    display: flex;
+    overflow: hidden;
+    justify-content: end;
+    background-color: rgb(20, 39, 53);
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+      
+  }
+  .navbar a {
+    position: static;
+    color: #f2f2f2;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    right: 0;
+    
+  }
+.navbar div{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#imagemlogo{
+    
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding-right: 10%;
+}
+#logo{
+  left: 0;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  align-self:center;
+
+}
+.asses{
+  background-image:url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.asses img{
+  padding-top: 8%;
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+.asses h1{
+
+  background-color: #142735;
+  margin-top: 70px;
+  height: 200px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+.back{
+  background-color: #142735;
+  height:825px;
+  margin-bottom: 100%;
+}
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  justify-self:end;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+    
+  }
+  
