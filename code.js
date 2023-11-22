@@ -41,5 +41,22 @@ function calcular(){
     //var resultado = fob+frete+seguro+ii+IPI+Pis+Confins+Icms;
     print.innerHTML = `R$ ${(total2.toFixed(2))}`
     
+    function modifyText() {  
+        var t2 = document.getElementById("calcular");  
+        t2.firstChild.nodeValue = "CALCULAR";      
+        }  
+    
+        
+        fob.addEventListener("click", modifyText, false);
+        frete.addEventListener("click", modifyText, false);
+        seguro.addEventListener("click", modifyText, false);
+        ii.addEventListener("click", modifyText, false);
+        IPI.addEventListener("click", modifyText, false);
+        Pis.addEventListener("click", modifyText, false);
+        Confins.addEventListener("click", modifyText, false);
+        Icms.addEventListener("click", modifyText, false);
     
 }
+
+ 
+          
