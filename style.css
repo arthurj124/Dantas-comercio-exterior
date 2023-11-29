@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@500&display=swap');
+*{
+    font-family: 'kanit', sans-serif;
+}
+
 body {
     font-family: sans-serif;
     background-color:white;
@@ -7,19 +12,16 @@ body {
  
   .navbar {
     display: flex;
-    overflow: hidden;
     justify-content: end;
     background-color: rgb(20, 39, 53);
     top: 0;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-      
+    
   }
   .navbar a {
     position: static;
     color: #f2f2f2;
-    padding: 16px 18px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     float: right;
@@ -31,13 +33,13 @@ body {
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 #imagemlogo{
     
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding-right: 10%;
 }
 #logo{
@@ -76,8 +78,33 @@ body {
 }
 .back{
   background-color: #142735;
-  margin-bottom: 100%;
   line-height: normal;
+}
+.seta h2{
+  max-width: 50%;
+  background-color: #142735;
+  text-align: center;
+  color: #ffffff;
+
+  }
+.text_tb{
+  font-size: 25px;
+  padding-left: 40px;
+}
+.linha{
+ display: flex;
+ flex-flow: row wrap;
+ text-align: center;
+}
+.coluna-33 {
+  width: 33.33%;
+  white-space: pre-wrap;
+}
+.coluna-33 img{
+  width: 90%;
+  border: #000000;
+  border-style: double;
+
 }
 footer {
   background-color: #000000;
@@ -86,7 +113,5 @@ footer {
   bottom: 0;
   width: 100%;
   height: 20px;
-  position: fixed;
-  justify-content: end;
   }
   
