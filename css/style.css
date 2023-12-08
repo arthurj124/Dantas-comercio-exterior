@@ -100,7 +100,7 @@ body {
 .asses h1{
 
   background-color: rgb(20, 39, 53);
-  margin-top: 60px;
+  margin-top: 7%;
   font-weight: 200;
   font-size: 25px;
   color: #ffffff;
@@ -134,25 +134,30 @@ body {
 .dantas{
   display: flex;
   flex-flow: row wrap;
+  text-align: justify;
 }
 
 .foto{
   padding-left: 5%;
   width: 40%;
+  
 }
 .foto img{
   margin-top: 3%;
   width: 100%;
+  border-radius: 3px;
 }
 .text{
   width: 55%;
   font-weight: 100;
+  text-align: justify;
 }
 
 .text p{
   font-size: 17px;
-  padding-left:100px;
-  padding-right: 100px;
+  margin-left:6%;
+  margin-right: 6%;
+
 }
 .dantas p{
   font-size: 17px;
@@ -178,9 +183,6 @@ body {
 
 .coluna-33 img{
   width: 68%;
-  border: #000000;
-  border-width: 0.50px;
-  border-style:solid;
   border-radius: 3px;
 }
 .linha p{
@@ -206,14 +208,15 @@ body {
   font-size: 20px;
 }
 .ce{
-  padding-left:155px;
-  padding-right: 100px;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 .ce h2{
   font-size: 20px;
 }
 .ce p{
   font-size: 17px;
+  text-align: justify;
   
 }
 .box-proj{
@@ -226,11 +229,13 @@ body {
   margin-left: 100px;
   border-radius: 5px;
   margin-bottom: 50px;
+
 }
 .proj{
+  text-align: justify;
   color: #000000;
   font-size: 17px;
-  margin-left: 60px;
+  padding: 5%;
 }
 .fora{
   padding-bottom: 2.5rem;
@@ -247,3 +252,36 @@ footer {
   display: flex;
   }
   
+  @media screen and (max-width: 850px){
+    
+  .asses h1{
+    margin-top: 0%;
+
+  }
+  .asses img{
+    padding-top: 8%;
+    height: 150px;
+    margin: auto;
+    display: block;
+  }
+  .corpo {
+  width: 100%
+  }
+  .triangulo{
+    border: none;
+  }
+  
+  .dantas{
+    display:block;
+  }
+
+  .foto{
+    margin-left: 26%;
+  }
+
+  .text{
+    width: 100%;
+  }
+  
+  .coluna-33 {}
+}
