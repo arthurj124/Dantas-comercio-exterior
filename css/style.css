@@ -7,6 +7,7 @@ body {
     font-family: sans-serif;
     background-color:white;
     margin:0%;
+    width: 100%;
     
   }
   
@@ -17,6 +18,7 @@ body {
     background-color: rgb(20, 39, 53);
     top: 0;
     width: 100%;
+    font-size: 17px;
     
   }
   .navbar a {
@@ -24,7 +26,7 @@ body {
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    
     float: right;
     right: 0;
     
@@ -32,9 +34,8 @@ body {
 .navbar div{
     display: block;
     color: #f2f2f2;
-    padding: 14px 16px;
+    padding-left: 17px;
     text-decoration: none;
-    font-size: 17px;
 }
 #imagemlogo{
     
@@ -94,6 +95,8 @@ body {
   width: 900px;
   height: 90px;
   background: #142735;
+  display: flex;
+  align-items: center;
 }
 .triangulo {
   border-top: 45px solid transparent;
@@ -105,7 +108,7 @@ body {
   color: #ffffff;
   font-size: 40px;
   margin:auto;
-  margin-top: 10px;
+  
 }
 .dantas{
   display: flex;
@@ -114,20 +117,25 @@ body {
 
 .foto{
   padding-left: 5%;
-  width: 40%;
+  width: 40%; 
+  padding-right: 3%;
+  
 }
 .foto img{
-  width: 700px;
+  width: 100%;
+
 }
 .text{
   width: 50%;
   font-size: 33px;
+  text-align: justify;
 }
 .dantas p{
   padding-top: 40px;
-  font-size: 29px;
+  font-size: 33px;
   padding-left:100px;
   padding-right: 100px;
+  text-align: justify;
 }
 
 .linha{
@@ -170,7 +178,6 @@ body {
   margin: auto;
   padding: 10px;
   color: #ffffff;
-  
   font-size: 35px;
 }
 .ce{
@@ -178,17 +185,16 @@ body {
   padding-right: 100px;
 }
 .ce h2{
-  font-size: 35px;
+  font-size: 40px;
 }
 .ce p{
-  
   margin-top: 10px;
-  font-size: 30px;
-  
+  font-size: 33px;
+  text-align: justify;
 }
 .box-proj{
   display: flex;
-  background-color: #dff1ff;
+  background-color:#cbdeff;
   height: auto;
   width: auto;
   margin-top: 60px;
@@ -199,8 +205,9 @@ body {
 }
 .proj{
   color: #000000;
-  font-size: 30px;
-  margin-left: 60px;
+  font-size: 33px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .fora{
   padding-bottom: 2.5rem;
@@ -217,3 +224,417 @@ footer {
   display: flex;
   }
   
+  @media screen and (max-width: 1400px) {
+    .asses{
+      height: 600px;
+    }
+    .back{
+      height: 620px;
+    }
+    .text{
+      font-size:25px;
+     
+    }
+    .corpo {
+      width: 700px;
+      height: 70px;
+    }
+    .triangulo {
+      border-top: 35px solid transparent;
+      border-bottom: 35px solid transparent;
+      border-left: 45px solid #142735;  
+    }
+    .corpo h2{
+      font-size: 30px;
+    }
+    .dantas p{
+      font-size: 25px;
+      padding-left:70px;
+      padding-right: 70px;
+    }
+    .linha h2{
+      font-size: 25px;
+    }
+    .linha p{
+      font-size: 20px;
+    }
+    .out{
+      height: 60px;
+      width: 200px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+    .out h2{
+      margin: auto;
+      padding: 10px;
+      font-size: 25px;
+    }
+    .ce{
+      padding-left:70px;
+      padding-right: 70px;
+    }
+    .ce h2{
+      font-size: 25px;
+    }
+    .ce p{
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .proj{
+      color: #000000;
+      font-size: 17px;
+      margin-left: 60px;
+    }
+  
+  }
+  @media screen and (max-width: 1000px) {
+    .asses{
+      height: 500px;
+    }
+    .asses img{
+      padding-top: 5%;
+      height: 170px;
+      margin: auto;
+      display: block;
+    }
+    .asses h1{
+    
+      background-color: rgb(20, 39, 53);
+      height: 80px;
+      font-size: 33px;
+      color: #ffffff;
+      text-align: center;
+      white-space: pre-wrap; 
+      height: max-content;
+    }
+    .back{
+      height: 520px;
+    }
+    .text{
+      font-size:18px;
+    }
+    .corpo {
+      width: 500px;
+      height: 50px;
+    }
+    .triangulo {
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 35px solid #142735;  
+    }
+    .corpo h2{
+      font-size: 25px;
+    }
+    .dantas p{
+      font-size: 18px;
+    }
+    .linha h2{
+      font-size: 22px;
+    }
+    .linha p{
+      font-size: 18px;
+    }
+    .out{
+      height: 50px;
+      width: 200px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+    .out h2{
+      margin: auto;
+      padding: 10px;
+      font-size: 20px;
+    }
+    .ce{
+      padding-left:60px;
+      padding-right: 60px;
+    }
+    .ce h2{
+      font-size: 25px;
+    }
+    .ce p{
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .proj{
+      color: #000000;
+      font-size: 18px;
+      margin-left: 60px;
+    }
+    
+}
+  @media screen and (max-width: 850px) {
+    .asses{
+      height: 400px;
+    }
+    .back{
+      height: 420px;
+    }
+    .corpo {
+      width:500px;
+      height: 50px;
+    }
+    .triangulo {
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 30px solid #142735;  
+    }
+    .corpo h2{
+      font-size: 25px;
+    }
+    .dantas{
+      margin-top: 4%;
+      display:flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+    .foto{
+      text-align: center;
+      width: 60%;
+    }
+    .text{
+      font-size:18px;
+      width: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .dantas p{
+      padding-top: 3px;
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .linha h2{
+      font-size: 20px;
+    }
+    .linha p{
+      font-size: 16px;
+    }
+    .out{
+      height: 40px;
+      width: 160px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .out h2{
+      margin: auto;
+      padding: 6px;
+      font-size: 17px;
+    }
+    .ce{
+      padding-left:30px;
+      padding-right: 30px;
+    }
+    .ce h2{
+      font-size: 20px;
+    }
+    .ce p{
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .proj{
+      color: #000000;
+      font-size: 17px;
+      margin-left: 60px;
+    }
+    .box-proj{
+      margin-top: 30px;
+      margin-right: 50px;
+      margin-left: 50px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    
+    .navbar {
+    font-size: 13px;
+    }
+    .navbar a {
+      padding: 12px 14px;
+      padding-left: 0px;
+    }
+    .navbar div{
+      padding-left: 10px;
+    }
+    #imagemlogo{
+      width: 20px;
+      height: 20px;
+    }
+    .asses{
+      height: 260px;
+    }
+    .asses img{
+      padding-top: 5%;
+      height: 100px;
+      
+    }
+    .asses h1{
+      height: 60px;
+      font-size: 20px;
+    }
+    .back{
+      height: 280px;
+    }
+    .corpo {
+      width:350px;
+      height: 35px;
+    }
+    .triangulo {
+      border-top: 17.5px solid transparent;
+      border-bottom: 17.5px solid transparent;
+      border-left: 25px solid #142735;  
+    }
+    .corpo h2{
+      font-size: 20px;
+    }
+    .dantas{
+      display:flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+    .foto{
+      text-align: center;
+      width: 60%;
+    }
+    .text{
+      font-size:15px;
+      width: auto;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .dantas p{
+      font-size: 15px;
+    }
+    .linha{
+      display:flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+    .coluna-33{
+      width: 100%;
+    }
+    .coluna-33 img{
+      width: 60%;
+    }
+    .linha h2{
+      font-size: 20px;
+    }
+    .linha p{
+      font-size: 18px;
+      padding-left: 0px;
+    }
+    .out{
+      height: 30px;
+      width: 120px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .out h2{
+      margin: auto;
+      padding: 3px;
+      font-size: 16px;
+    }
+    .ce{
+      padding-left:30px;
+      padding-right: 30px;
+    }
+    .ce h2{
+      font-size: 20px;
+    }
+    .ce p{
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    .proj{
+      color: #000000;
+      font-size: 14px;
+      margin-left: 60px;
+    }
+    .box-proj{
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+  }
+  @media screen and (max-width: 440px) {
+    .navbar {
+      font-size: 10px;
+      }
+    .asses{
+      height: 210px;
+    }
+    .asses img{
+      padding-top: 5%;
+      height: 70px;
+    }
+    .asses h1{
+      height: 50px;
+      font-size: 15px;
+    }
+    .back{
+      height: 220px;
+    }
+    .corpo {
+      width:100%;
+      height: 25px;
+    }
+    .triangulo {
+      border-top: 12.5px; 
+      border-bottom: 12.5px; 
+      border-left: 20px  
+    }
+    .corpo h2{
+      font-size: 14px;
+    }
+    .foto{
+      text-align: center;
+      width: 50%;
+    }
+    .text{
+      font-size:12px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .dantas p{
+      font-size: 12px;
+      padding-left: 20px;
+    }
+    .coluna-33 img{
+      width: 50%;
+    }
+    .linha h2{
+      font-size: 16px;
+    }
+    .linha p{
+      font-size: 13px;
+    }
+    .out{
+      height: 20px;
+      width: 80px;
+    }
+    .out h2{
+      margin: auto;
+      padding: 3px;
+      font-size: 9px;
+    }
+    .ce{
+      padding-left:20px;
+      padding-right: 20px;
+    }
+    .ce h2{
+      font-size: 14px;
+    }
+    .ce p{
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    .proj{
+      color: #000000;
+      font-size: 10px;
+      margin-left: 30px;
+    }
+}
