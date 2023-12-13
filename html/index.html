@@ -136,10 +136,49 @@
 
   </div>
 </div>
+<div class="contato">
+  <div class="centralizartitulo">
+      <h2>ENTRE EM CONTATO</h2>
+  </div>
+    <form id="contactForm">
+      <div class="FBp1">
+        <input type="text" id="user_name" name="user_name" required placeholder="NOME" class="inputforms"><br>
+        <input type="email" id="user_email" name="user_email" required placeholder="EMAIL" class="inputforms"><br>
+
+      </div>
+      <div class="FBp2">
+        <input type="tel" id="user_phone" name="user_phone" required placeholder="CELULAR PARA CONTATO" class="inputforms"><br>
+        <textarea id="message" name="message" rows="4" required placeholder='MENSAGEM EXEMPLO "GOSTARIA DE FAZER UM ORÇAMENTO"' class="inputforms"></textarea><br>
+
+       </div>
+      </form>
+      <input type="button" value="Enviar Por WhatsApp " onclick="enviarWhatsApp1()" class="ce2">
+  </div>
+</div>
+
 <div class="fora"></div>
     <footer>
     <p>Copyright © 2023 Logística Internacional</p>
     </footer>
   </div> 
+
+  <script>
+    function enviarWhatsApp1() {
+        var nome = document.getElementById("user_name").value;
+        var email = document.getElementById("user_email").value;
+        var telefone = document.getElementById("user_phone").value;
+        var mensagem = document.getElementById("message").value;
+
+        // Formato do link do WhatsApp
+        var linkWhatsApp = "https://wa.me/5511940312680?text=" +
+            encodeURIComponent("Nome: " + nome + "\n" +
+                               "Email: " + email + "\n" +
+                               "Telefone: " + telefone + "\n" +
+                               "Mensagem: " + mensagem);
+
+        // Abrir link no WhatsApp
+        window.open(linkWhatsApp);
+    }
+</script>
 </body>
 </html>
