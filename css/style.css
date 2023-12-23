@@ -7,29 +7,21 @@ body {
     font-family: sans-serif;
     background-color:white;
     margin:0%;
-    width: 100%;
-    
+    width: 100%;  
   }
-  
- 
   .navbar {
     display: flex;
-    justify-content: end;
     background-color: rgb(20, 39, 53);
-    top: 0;
-    width: 100%;
-    font-size: 17px;
-    
+    font-size: 17px; 
+    justify-content: end;
   }
   .navbar a {
     position: static;
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    
     float: right;
     right: 0;
-    
   }
 .navbar div{
     display: block;
@@ -38,8 +30,6 @@ body {
     text-decoration: none;
 }
 #imagemlogo{
-    
-  display: flex;
   width: 40px;
   height: 40px;
   padding-right: 10%;
@@ -50,685 +40,337 @@ body {
   align-items: center;
   display: flex;
   align-self:center;
-
 }
 .page-container {
-  position: relative;
-  min-height: 100vh;
-}
+    position: relative;
+    min-height: 100vh;
+  }
 .asses{
-  background-image:url(../images/background.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 100%;
-  align-items: center;
-}
-
+    background-image:url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    align-items: center;
+  }
 .asses img{
-  padding-top: 8%;
-  height: 250px;
-  margin: auto;
-  display: block;
-}
-.asses h1{
-
-  background-color: rgb(20, 39, 53);
-  margin-top: 60px;
-  height: 100px;
-  font-size: 50px;
-  color: #ffffff;
-  text-align: center;
-  white-space: pre-wrap; 
-  height: max-content;
+    padding-top: 8%;
+    height: 250px;
+    width: auto;
+    margin: auto;
+    display: block;
+  }
+h1{
+    background-color: rgb(20, 39, 53);
+    margin-top: 60px;
+    height: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    white-space: pre-wrap; 
+    height: max-content;  
 }
 .back{
-  background-color: rgb(20, 39, 53);
-  line-height: normal;
-  height: 825px;
-}
-.seta{
-  display:flex;
-  margin-top: 5%;
-}
-.corpo {
-  width: 900px;
-  height: 90px;
-  background: #142735;
-  display: flex;
-  align-items: center;
-}
-.triangulo {
-  border-top: 45px solid transparent;
-  border-bottom: 45px solid transparent;
-  border-left: 70px solid #142735;  
-}
-.corpo h2{
-  text-align: center;
-  color: #ffffff;
-  font-size: 40px;
-  margin:auto;
-  
-}
-.dantas{
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.foto{
-  padding-left: 5%;
-  width: 40%; 
-  padding-right: 3%;
-  
-}
-.foto img{
-  width: 100%;
-
-}
-.text{
-  width: 50%;
-  font-size: 33px;
-  text-align: justify;
-}
-.dantas p{
-  padding-top: 40px;
-  font-size: 33px;
-  padding-left:100px;
-  padding-right: 100px;
-  text-align: justify;
-}
-
-.linha{
-  margin-top: 60px;
-  display: flex;
-  flex-flow: row wrap;
-}
-.coluna-33 {
-  width: 33.33%;
-  text-align: center; 
-}
-.coluna-33 h2{
-   font-size: 35px;
-   font-weight: bolder;
-}
-.coluna-33{
-  margin-top: 10px;
-}
-.coluna-33 img{
-  width: 80%;
-  border: #000000;
-  border-style:solid;
-}
-.linha p{
-  font-size: 27px;
-  padding-left: 30px;
-  white-space:pre-line;
-}
-.out{
-  display: flex;
-  background-color: #142735;
-  height: 80px;
-  width: 300px;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border-radius: 5px;
-}
-.out h2{
-  margin: auto;
-  padding: 10px;
-  color: #ffffff;
-  font-size: 35px;
-}
-.ce{
-  padding-left:100px;
-  padding-right: 100px;
-}
-.ce h2{
-  font-size: 40px;
-}
-.ce p{
-  margin-top: 10px;
-  font-size: 33px;
-  text-align: justify;
-}
-.box-proj{
-  display: flex;
-  background-color:#cbdeff;
-  height: auto;
-  width: auto;
-  margin-top: 60px;
-  margin-right: 100px;
-  margin-left: 100px; 
-  border-radius: 5px;
-  margin-bottom: 50px;
-}
-.proj{
-  color: #000000;
-  font-size: 33px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.contato{
-  flex-direction: column;
-  display: flex;
-  background-color:#cbdeff;
-  height: auto;
-  width: auto;
-  margin-top: 60px;
-  margin-right: 100px;
-  margin-left: 100px; 
-  border-radius: 5px;
-  margin-bottom: 50px;
-  align-items: center;
-  align-self: center;
-}
-
-.centralizartitulo{
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  justify-content: center;
-  margin-left: 40px;
-  margin-right: 40px;
-
-}
-#contactForm{
-  flex-direction: row;
-  justify-items: center;
-  justify-content: center;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.inputforms{
-  width: 100%;
-  background-color: transparent;
-  border: 0px solid #ccc;
- margin: 10%;
- border-bottom: 1px solid #000;
-  
-}
-.FBp1{padding: 10px;}
-.FBp2{padding: 10px;}
-.fora{
-  padding-bottom: 2.5rem;
-}
-.ce2{
-  --color: #00A97F;
- background-color: transparent;
- border-radius: .3em;
- position: relative;
- overflow: hidden;
- font-size: 15px;
- border: 1px solid;
- font-family: inherit;
- text-transform: uppercase;
- color: var(--color);
-
-}
-.ce2:hover {
-  background-color: var(--color);
-  color: #ffffff;
- }
-footer {
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  color: rgb(195, 221, 255);
-  background-color: rgb(226, 242, 255);
-  align-items: center;
-  justify-content: center;
-  display: flex;
-
-  }
-  
-  @media screen and (max-width: 1400px) {
-    .asses{
-      height: 600px;
-    }
-    .back{
-      height: 620px;
-    }
-    .text{
-      font-size:25px;
-     
-    }
-    .corpo {
-      width: 700px;
-      height: 70px;
-    }
-    .triangulo {
-      border-top: 35px solid transparent;
-      border-bottom: 35px solid transparent;
-      border-left: 45px solid #142735;  
-    }
-    .corpo h2{
-      font-size: 30px;
-    }
-    .dantas p{
-      font-size: 25px;
-      padding-left:70px;
-      padding-right: 70px;
-    }
-    .linha h2{
-      font-size: 25px;
-    }
-    .linha p{
-      font-size: 20px;
-    }
-    .out{
-      height: 60px;
-      width: 200px;
-      margin-top: 70px;
-      margin-bottom: 70px;
-    }
-    .out h2{
-      margin: auto;
-      padding: 10px;
-      font-size: 25px;
-    }
-    .ce{
-      padding-left:70px;
-      padding-right: 70px;
-    }
-    .ce h2{
-      font-size: 25px;
-    }
-    .ce p{
-      margin-top: 10px;
-      font-size: 20px;
-    }
-    .proj{
-      color: #000000;
-      font-size: 17px;
-      margin-left: 60px;
-    }
-    .contato{
-      margin: 60px;
-    }
-  
-  }
-  @media screen and (max-width: 1000px) {
-    .asses{
-      height: 500px;
-    }
-    .asses img{
-      padding-top: 5%;
-      height: 170px;
-      margin: auto;
-      display: block;
-    }
-    .asses h1{
-    
-      background-color: rgb(20, 39, 53);
-      height: 80px;
-      font-size: 33px;
-      color: #ffffff;
-      text-align: center;
-      white-space: pre-wrap; 
-      height: max-content;
-    }
-    .back{
-      height: 520px;
-    }
-    .text{
-      font-size:18px;
-    }
-    .corpo {
-      width: 500px;
-      height: 50px;
-    }
-    .triangulo {
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
-      border-left: 35px solid #142735;  
-    }
-    .corpo h2{
-      font-size: 25px;
-    }
-    .dantas p{
-      font-size: 18px;
-    }
-    .linha h2{
-      font-size: 22px;
-    }
-    .linha p{
-      font-size: 18px;
-    }
-    .out{
-      height: 50px;
-      width: 200px;
-      margin-top: 70px;
-      margin-bottom: 70px;
-    }
-    .out h2{
-      margin: auto;
-      padding: 10px;
-      font-size: 20px;
-    }
-    .ce{
-      padding-left:60px;
-      padding-right: 60px;
-    }
-    .ce h2{
-      font-size: 25px;
-    }
-    .ce p{
-      margin-top: 10px;
-      font-size: 18px;
-    }
-    .proj{
-      color: #000000;
-      font-size: 18px;
-      margin-left: 60px;
-    }
-    .contato{
-      margin: 60px;
-    }
-    
-}
-  @media screen and (max-width: 850px) {
-    .asses{
-      height: 400px;
-    }
-    .back{
-      height: 420px;
-    }
-    .corpo {
-      width:500px;
-      height: 50px;
-    }
-    .triangulo {
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
-      border-left: 30px solid #142735;  
-    }
-    .corpo h2{
-      font-size: 25px;
-    }
-    .dantas{
-      margin-top: 4%;
-      display:flex;
-      flex-flow: column wrap;
-      align-items: center;
-    }
-    .foto{
-      text-align: center;
-      width: 60%;
-    }
-    .text{
-      font-size:18px;
-      width: auto;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .dantas p{
-      padding-top: 3px;
-      font-size: 18px;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .linha h2{
-      font-size: 20px;
-    }
-    .linha p{
-      font-size: 16px;
-    }
-    .out{
-      height: 40px;
-      width: 160px;
-      margin-top: 40px;
-      margin-bottom: 40px;
-    }
-    .out h2{
-      margin: auto;
-      padding: 6px;
-      font-size: 17px;
-    }
-    .ce{
-      padding-left:30px;
-      padding-right: 30px;
-    }
-    .ce h2{
-      font-size: 20px;
-    }
-    .ce p{
-      margin-top: 10px;
-      font-size: 18px;
-    }
-    .proj{
-      color: #000000;
-      font-size: 17px;
-      margin-left: 60px;
-    }
-    .box-proj{
-      margin-top: 30px;
-      margin-right: 50px;
-      margin-left: 50px;
-      border-radius: 5px;
-      margin-bottom: 30px;
-    }
-    .contato{
-      margin: 60px;
-    }
-    .inputforms{
-      width: 80%;
-    }
-    .inputforms::placeholder{
-      font-size: 9px;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    
-    .navbar {
-    font-size: 13px;
-    }
-    .navbar a {
-      padding: 12px 14px;
-      padding-left: 0px;
-    }
-    .navbar div{
-      padding-left: 10px;
-    }
-    #imagemlogo{
-      width: 20px;
-      height: 20px;
-    }
-    .asses{
-      height: 260px;
-    }
-    .asses img{
-      padding-top: 5%;
-      height: 100px;
-      
-    }
-    .asses h1{
-      height: 60px;
-      font-size: 20px;
-    }
-    .back{
-      height: 280px;
-    }
-    .corpo {
-      width:350px;
-      height: 35px;
-    }
-    .triangulo {
-      border-top: 17.5px solid transparent;
-      border-bottom: 17.5px solid transparent;
-      border-left: 25px solid #142735;  
-    }
-    .corpo h2{
-      font-size: 20px;
-    }
-    .dantas{
-      display:flex;
-      flex-flow: column wrap;
-      align-items: center;
-    }
-    .foto{
-      text-align: center;
-      width: 60%;
-    }
-    .text{
-      font-size:15px;
-      width: auto;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .dantas p{
-      font-size: 15px;
-    }
-    .linha{
-      display:flex;
-      flex-flow: column wrap;
-      align-items: center;
-    }
-    .coluna-33{
-      width: 100%;
-    }
-    .coluna-33 img{
-      width: 60%;
-    }
-    .linha h2{
-      font-size: 20px;
-    }
-    .linha p{
-      font-size: 18px;
-      padding-left: 0px;
-    }
-    .out{
-      height: 30px;
-      width: 120px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    .out h2{
-      margin: auto;
-      padding: 3px;
-      font-size: 16px;
-    }
-    .ce{
-      padding-left:30px;
-      padding-right: 30px;
-    }
-    .ce h2{
-      font-size: 20px;
-    }
-    .ce p{
-      margin-top: 10px;
-      font-size: 15px;
-    }
-    .proj{
-      color: #000000;
-      font-size: 14px;
-      margin-left: 60px;
-    }
-    .box-proj{
-      margin-top: 20px;
-      margin-right: 20px;
-      margin-left: 20px;
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
-    .contato{
-      margin: 60px;
-    }
-    .inputforms{
-      width: 80%;
-    }
-    .inputforms::placeholder{
-      font-size: 9px;
-    }
-
-  }
-  @media screen and (max-width: 440px) {
-    .navbar {
-      font-size: 10px;
+        background-color: rgb(20, 39, 53);
+        line-height: normal;
+        height: 825px;
       }
-    .asses{
-      height: 210px;
-    }
-    .asses img{
-      padding-top: 5%;
-      height: 70px;
-    }
-    .asses h1{
-      height: 50px;
-      font-size: 15px;
-    }
-    .back{
-      height: 220px;
-    }
+    .seta{
+       display:flex;
+       margin-top: 5%;
+      } 
     .corpo {
-      width:100%;
-      height: 25px;
-    }
+       width: 900px;
+       height: 90px;
+       background: #142735;
+       display: flex;
+       align-items: center;
+      }
     .triangulo {
-      border-top: 12.5px; 
-      border-bottom: 12.5px; 
-      border-left: 20px  
+       border-top: 45px solid transparent;
+       border-bottom: 45px solid transparent;
+       border-left: 70px solid #142735;  
+      }    
+      .dantas{
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .foto{
+        padding-left: 5%;
+        width: 40%; 
+        padding-right: 3%;
+      }
+      .foto img{
+        width: 100%;
+      }
+      .text{
+        width: 50%;
+      }
+      .texge{
+        font-size: 33px;
+        text-align:justify;
+      }
+      .linha{
+        margin-top: 60px;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        margin:auto;
+      }
+      .coluna-33 {
+        width: 33.33%;
+        text-align: center; 
     }
-    .corpo h2{
-      font-size: 14px;
-    }
-    .foto{
-      text-align: center;
-      width: 50%;
-    }
-    .text{
-      font-size:12px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .dantas p{
-      font-size: 12px;
-      padding-left: 20px;
-    }
-    .coluna-33 img{
-      width: 50%;
-    }
-    .linha h2{
-      font-size: 16px;
-    }
-    .linha p{
-      font-size: 13px;
-    }
-    .out{
-      height: 30px;
-      width: 100px;
-    }
-    .out h2{
-      margin: auto;
-      padding: 3px;
-      font-size: 9px;
-    }
-    .ce{
-      padding-left:20px;
-      padding-right: 20px;
-    }
-    .ce h2{
-      font-size: 14px;
-    }
-    .ce p{
-      margin-top: 10px;
-      font-size: 10px;
-    }
-    .proj{
-      color: #000000;
-      font-size: 10px;
-      margin-left: 30px;
-    }
-    .contato{
-      margin: 30px;
-    }
-    .inputforms{
-      width: 80%;
-    }
-    .inputforms::placeholder{
-      font-size: 9px;
-    }
+      
+      .coluna-33{
+        margin-top: 10px;
+        white-space:pre-line;
+      }
+      .coluna-33 img{
+        width: 80%;
+        border: #000000;
+        border-style:solid;
+      }
+      .out{
+        display: flex;
+        background-color: #142735;
+        height: 80px;
+        width: 300px;
+        margin: auto;
+        border-radius: 5px;
+        color:#ffffff ;
+      }
+.ce h3,p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 27px;
 }
+  h2{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+  }
+  h3{
+    font-size: 35px;
+    margin: auto;
+  }
+  
+.box-proj{
+    display: flex;
+    background-color:#cbdeff;
+    height: auto;
+    width: auto;
+    margin:50px 100px;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  .proj{
+    color: #000000;
+  }
+  .contato{
+    flex-direction: column;
+    display: flex;
+    background-color:#cbdeff;
+    height: auto;
+    width: auto;
+    margin:50px 100px;
+    border-radius: 5px;
+    align-items: center;
+    align-self: center;
+  }
+  
+  
+  #contactForm{
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .inputforms{
+    width: 100%;
+    background-color: transparent;
+    border: 0px solid #ccc;
+   margin: 10%;
+   border-bottom: 1px solid #000;
+    
+  }
+  .FBp1{padding: 10px;}
+  .FBp2{padding: 10px;}
+  .fora{
+    padding-bottom: 2.5rem;
+  }
+  .ce2{
+    --color: #00A97F;
+   background-color: transparent;
+   border-radius: .3em;
+   position: relative;
+   overflow: hidden;
+   font-size: 15px;
+   border: 1px solid;
+   font-family: inherit;
+   text-transform: uppercase;
+   color: var(--color);
+  
+  }
+  .ce2:hover {
+    background-color: var(--color);
+    color: #ffffff;
+   }
+   footer {
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    color: rgb(195, 221, 255);
+    background-color: rgb(226, 242, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    @media screen and (max-width: 1400px) {
+        .text, .texge, p{
+            font-size: 22px;
+        }
+        .asses{
+          height: 600px;
+        }
+        .back{
+          height: 625px;
+        }
+        .contato{
+          margin: 60px;
+        }
+    }
+     @media screen and (max-width: 1100px) {
+      .dantas,.linha{
+        flex-flow: column wrap;
+        align-items: center;
+      }
+      .coluna-33{
+        width: 100%;
+      }
+      .coluna-33 p{
+        font-size:23px;
+      }
+      .coluna-33 img{
+        width:70%;
+      }
+      .asses{
+        height: 500px;
+      }
+      .back{
+        height: 525px;
+      }
+      .corpo {
+        width: 100%;
+       }
+      .triangulo {
+        display: none;
+      } 
+      .text, .texge, p{
+        font-size: 20px;
+        width: auto;
+    }
+      .text{
+        padding: 0px 80px;
+      }
+      .foto{
+        width:70%;
+      }
+      h2{
+       font-size: 30px;
+      }
+      h3{
+        font-size:25px;
+      }
+     }
+     @media screen and (max-width: 850px) {
+      .box-proj{
+        margin:25px 50px;
+      }
+      .ce h3,.text,p{
+        padding: 0px 40px;
+      }
+      h1{
+        font-size: 30px;
+        height: max-content;
+      }
+      .back{
+        color: #ffffff;
+      }
+      .inputforms{
+        width: 80%;
+      }
+      .inputforms::placeholder{
+        font-size: 9px;
+      }
+     }
+     @media screen and (max-width: 650px) {
+      .navbar, .navbar a{
+        font-size: 13px;
+      }
+      .asses img{
+        height:125px;
+      }
+      .back{
+        height: 400px;
+      }
+      .corpo{
+        height:60px;
+      }
+      p,.text,.texge{
+        font-size:14px;
+      }
+      .coluna-33 p{
+        font-size: 15px;
+      }
+      h3{
+        font-size: 18px;
+      }
+      .out{
+        height: 50px;
+        width: 170px;
+      }
+      .inputforms{
+        width: 80%;
+      }
+      .inputforms::placeholder{
+        font-size: 9px;
+      }
+     }
+     @media screen and (max-width: 450px) {
+      p,.text,.texge{
+        font-size:10px;
+      }
+      .back{
+        height: 300px;
+      }
+      .coluna-33 p{
+        font-size: 12px;
+      }
+      .ce h3,h3{
+        font-size: 15px;
+      }
+      .ce h3,.text,p{
+        padding: 0px 20px;
+      }
+      .box-proj{
+        margin:15px 20px;
+      }
+      h1{
+        font-size: 20px;
+      }
+      .navbar, .navbar a{
+        font-size: 9px;
+      }
+      .inputforms{
+        width: 80%;
+      }
+      .inputforms::placeholder{
+        font-size: 9px;
+      }
+     }
