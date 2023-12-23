@@ -121,7 +121,9 @@ h1{
         width: 33.33%;
         text-align: center; 
     }
-      
+      .coluna-33 p{
+        text-align: center;
+      }
       .coluna-33{
         margin-top: 10px;
         white-space:pre-line;
@@ -144,6 +146,10 @@ h1{
     padding-left: 80px;
     padding-right: 80px;
     font-size: 27px;
+    text-align: justify;
+}
+.proj p{
+  padding:20px;
 }
   h2{
     font-size: 40px;
@@ -155,13 +161,12 @@ h1{
     font-size: 35px;
     margin: auto;
   }
-  
 .box-proj{
     display: flex;
     background-color:#cbdeff;
     height: auto;
     width: auto;
-    margin:50px 100px;
+    margin:40px 100px;
     border-radius: 5px;
     padding: 30px;
   }
@@ -174,13 +179,11 @@ h1{
     background-color:#cbdeff;
     height: auto;
     width: auto;
-    margin:50px 100px;
+    margin:40px 10px;
     border-radius: 5px;
     align-items: center;
     align-self: center;
   }
-  
-  
   #contactForm{
     flex-direction: row;
     justify-items: center;
@@ -232,18 +235,18 @@ h1{
     display: flex;
     }
     @media screen and (max-width: 1400px) {
-        .text, .texge, p{
-            font-size: 22px;
-        }
-        .asses{
-          height: 600px;
-        }
-        .back{
-          height: 625px;
-        }
-        .contato{
-          margin: 60px;
-        }
+      .text, .texge, p{
+        font-size: 25px;
+      }
+      .asses{
+        height: 600px;
+      }
+      .back{
+        height: 625px;
+      }
+      .contato{
+        margin: 60px;
+      }
     }
      @media screen and (max-width: 1100px) {
       .dantas,.linha{
@@ -272,9 +275,9 @@ h1{
         display: none;
       } 
       .text, .texge, p{
-        font-size: 20px;
+        font-size: 18px;
         width: auto;
-    }
+      }
       .text{
         padding: 0px 80px;
       }
@@ -299,9 +302,6 @@ h1{
         font-size: 30px;
         height: max-content;
       }
-      .back{
-        color: #ffffff;
-      }
       .inputforms{
         width: 80%;
       }
@@ -311,13 +311,13 @@ h1{
      }
      @media screen and (max-width: 650px) {
       .navbar, .navbar a{
-        font-size: 13px;
+        font-size: 10px;
       }
       .asses img{
         height:125px;
       }
       .back{
-        height: 400px;
+        height: 375px;
       }
       .corpo{
         height:60px;
@@ -326,6 +326,9 @@ h1{
         font-size:14px;
       }
       .coluna-33 p{
+        font-size: 15px;
+      }
+      h2{
         font-size: 15px;
       }
       h3{
@@ -342,7 +345,13 @@ h1{
         font-size: 9px;
       }
      }
-     @media screen and (max-width: 450px) {
+     @media screen and (max-width: 480px) {
+      .navbar, .navbar a{
+        font-size: 8px;
+      }
+      .corpo{
+        height: 40px;
+      }
       p,.text,.texge{
         font-size:10px;
       }
@@ -352,7 +361,7 @@ h1{
       .coluna-33 p{
         font-size: 12px;
       }
-      .ce h3,h3{
+      .ce h3,h3, h2{
         font-size: 15px;
       }
       .ce h3,.text,p{
@@ -362,11 +371,9 @@ h1{
         margin:15px 20px;
       }
       h1{
-        font-size: 20px;
+        font-size: 16px;
       }
-      .navbar, .navbar a{
-        font-size: 9px;
-      }
+   
       .inputforms{
         width: 80%;
       }
